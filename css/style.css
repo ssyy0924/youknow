@@ -1,0 +1,324 @@
+	@font-face { font-family: 'DungGeunMo'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff'); font-weight: normal; font-style: normal; }
+	@font-face { font-family: 'BMHANNAAir'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff'); font-weight: normal; font-style: normal; }
+	html{scroll-behavior: smooth;}
+	body{margin: 0px; font-family: 'DungGeunMo'; word-break: keep-all; display: block;
+		overflow-x: hidden;}
+	header{right: 0; left: 0; top: 0;}
+	div{scroll-behavior: smooth;}
+	ul{background-color: #c0c0bf; width: 50px; list-style-type: none; padding: 0px;margin: 0px;}
+	ul li{width: 40px; height: 40px; margin:auto; border: 4px outset #c0c0bf;}
+	li a{display: block; padding: auto; padding: 4px 0px 0px 2px;}
+	p{margin: 0px; 
+		font-family: 'BMHANNAAir';
+		font-size: 1.5rem; 
+		line-height: 2.1rem; }
+		.flex{display: flex;}
+	/.background{background-image: url('../img/background.png'); background-size: cover; height: 8000px;}
+	.head1{background-color: #063894; height: 40px;}
+	.icon1{width: 27px; height: 27px; background-color: #c0c0bf; border: 6px outset #c0c0bf;}
+	.icon1-1{padding: 5px 0px 0px 2px;}
+	.right{margin-left: auto;}
+	.head-tx{color: white; margin: 5px 0px 5px 10px;}
+	.border{border: 6px inset #c0c0bf;}
+	.head2{background-color: #c0c0bf; height: 80px; font-size: 1.6rem; padding-left: 20px; border:5px groove #c0c0bf;}
+	.option{width: 1000px; height: 30px; background-color: white; margin: 10px 0px 0px 10px;}
+	.icon2{width: 30px; height: 30px; background-color: #c0c0bf; border: 6px ridge #c0c0bf; margin: 10px 0px 0px 0px;}
+	.icon2-1{margin-left: auto; width: 17px; height: 17px;}
+	.icon3{color: black;}
+	.icon3-1{padding:4px 0px 0px 0px;}
+	.icon3-2{padding:3px 0px 0px 5px;}
+	.icon3-3{padding: 3px 0px 0px 9px;}
+	.icon3-4{padding: 3px 3px 0px 0px;}
+	.nav-bg{width: 100px; height: 530px;background-color: #c0c0bf; 
+		padding: 5px 0px 0px 0px; border: 5px ridge;}
+	.nav-bottom{width: 80px; height: 130px; background-color: #edeceb; margin: 15px 0px 0px 7px; border: 3px inset;}
+	.box-container{position: relative;}
+
+
+	.box-call{height: 3400px;}
+	.call-hd{position: absolute;
+		font-size: 15rem;
+		top: 230px;
+		}
+	.call4{position: absolute; top: 600px; left: 100px; z-index: 2; width: 2 }
+	.call10{position: absolute;
+		width: 700px;
+		top: 2100px; left: 900px;}
+	.cousor2{position: absolute;
+		width: 400px; 
+		top: 1740px; left: 870px;
+		z-index: 10;}
+	@-webkit-keyframes direction {
+  		from{
+   		 top:40px;
+  		}
+  		to{
+    		top:200px;
+ 		 }
+		}
+	.call img{position: absolute; 
+		left: 940px; width: 600px;
+		animation: direction 1s Infinite;
+		animation-direction: alternate-reverse;
+  		}
+	.call5 img{position: absolute; top: 700px; left: 520px; width: 700px;}
+	.call5 h4{font-size: 2rem; position: absolute; top: 670px; left: 587px; color: white;}
+	.call1 h6{font-size: 1.4rem; position: absolute; top: 755px; left: 689px; line-height: 1.8rem;}
+	.call1 img{position: absolute;top: 795px; left: 600px; width: 65px;}
+	.call3 img{position: absolute;top: 850px; left: 960px; width: 570px;}
+	.call7 img{position: absolute;top: 1431px;left: 561px; width: 460px;}
+	.call7 p{position: absolute; 
+		top: 1510px; left: 620px; 
+		width: 320px; margin: 0px;
+		}
+	.call6 img{position: absolute;
+		top: 1750px; width: 800px;}
+	.call6 p{position: absolute;
+		top: 1880px; left: 40px;
+		width: 760px;
+	}
+	.call6-tx{position: absolute; 
+		top: 2168px; left: 150px;
+		width: 572px;
+	}
+	@keyframes ball {
+	 0% {top:1000px} 95% {
+     width: 100px;
+    }
+    to {top:1600px;
+        width:115px;
+        height:90px
+    } 
+	}
+	.emoji1 img{position: relative;
+	 left: 100px; top: 1500px;
+	 width: 60px;
+	 animation:ball 2s ease-in Infinite Alternate;}
+	.emoji2 img{position: relative;
+	 left: 400px; top: 1500px;
+	 width: 60px;
+	 animation:ball 1s ease-in Infinite Alternate;}
+	.emoji3 img{position: relative;
+	 left: 300px; top: 500px;
+	 width: 60px;
+	 animation:ball 1.5s ease-in Infinite Alternate;}
+	.call9{position: absolute;
+		width: 600px; 
+		top: 1000px; left: 32px;}
+	.call9-icon{position: absolute;
+		width: 50px; 
+		top: 1564px; left: 312px;}
+	.call9-tx{position: absolute;
+		top: 1528px; left: 387px;
+		font-size: 1.2rem;}
+
+
+
+	 .box-add{height: 1600px;}
+	 .add-hd{position: absolute;
+	 	font-size: 15rem;
+	 	top: -700px; 
+	 	z-index: 20;}
+	 .add-gif img{position: absolute; 
+	 	width: 500px; top: 85px; left: 820px;
+	 	z-index: 10;}
+	 .add-gif1 img{position: absolute; 
+	 	top: -350px; left: 930px; 
+	 	width: 750px;}
+	 .add2 img{position: absolute;
+	 	top: 789px; left: 344px;
+	 	width: 600px; z-index: 1}
+	 .add3 img{position: absolute;
+	 	left: -70px; top: -310px;
+	 	width: 800px;}
+	 .add3 h3{position: absolute;
+	 	left: 285px; top: -35px;
+	 	font-size: 1.8rem; color: white;}
+	 .add1 img{position: absolute;left: 292px; top: 48px;}
+	.add1 h6{position: absolute;
+		left: 356px; top: 21px;
+		font-size: 1.2rem;}
+	.add7{position: absolute;
+		width: 600px;
+		left: 180px; top: 130px;}
+	 .add5 img{position: absolute;
+	 	top: 560px; left: 35px;
+	 	width: 550px;}
+	 .add5 p{position: absolute;
+	 	top: 660px; left: 80px;
+	 	width: 460px;}
+	 .add4 img{position: absolute;
+	 	top: 1223px;
+	 	width: 500px;}
+	 .add6 img{position: absolute;
+	 	top: 1230px; left: ;
+	 animation: compare 2s infinite alternate;
+	 animation-timing-function: ease-in-out;}
+	 @-webkit-keyframes compare{
+  		from{left:0px;}
+  		to{ left:800px; top: 860px;}
+			}
+
+
+	.box-save{height: 3050px;}
+	 .save img{position: absolute;
+	 	top: }
+	 .save-tx h1{position: absolute; font-size: 15rem;
+	 left: 810px; top: 155px; text-align: right;
+	 	  line-height: 13rem;}
+	 .save1 img{position: absolute; 
+	 	left: 740px; top: 300px;
+	 	width: 80px;}
+	 .ani1 img{animation: anis 1.5s  infinite;}
+	 .ani2 img{animation: aniss 1.5s ease-in  infinite;
+	 	
+	 	}
+	 .ani3 img{animation: anisss 1.5s  Infinite;}
+	 .ani4 img{animation: anissss 1.7s  infinite;}
+	 .ani5 img{animation: anisssss 1.5s  infinite;}
+	 @keyframes anis{
+	 	0%{left: 740px;}
+	 	70%{top: 300px;}
+	 	100%{left: 900px; top: 200px;}
+	 }
+	 @keyframes aniss{
+	 	0%{left: 740px;}
+	 	50%{left: 900px; top: 85px;}
+	 	100%{left: 905px; top: 100;}
+	 }
+	 @keyframes anisss{
+	 	0%{left: 740px;}
+	 	50%{left: 1300px; top: 50px;}
+	 	100%{left: 850px; top: 200;}
+	 }
+	 @keyframes anissss{
+	 	0%{left: 740px;}
+	 	50%{left: 1200px; top: 100px;}
+	 	95%{left: 1250px; top: 10;}
+	 	100%{left: 1000px; top: 10;}
+	 }
+	 @keyframes anisssss{
+	 	0%{left: 740px;}
+	 	50%{left: 1200px; top: 70px;}
+	 	100%{left: 750px; top: 0;}
+	 }
+	.saveicon img{position: absolute; width: 50px; left: 100px; top: 680px;}
+	.saveicon p{position: absolute;left: 107px; top: 730px;
+		font-size: 1rem;}
+	.save2 img{position: absolute; width: 1200px; top: 1200px;}
+	.save4 img{position: absolute;width: 700px; top: 700px; left: 300px;}
+	.save4 p{position: absolute; 
+		width: 500px;
+		top: 1000px; left: 350px;}
+	.save3 img{position: absolute; width: 400px; 
+		animation: floppy 4s Infinite;}
+	.save3-1 img{position: absolute; width: 400px;
+		animation: floppy 4s Infinite;
+		animation-delay: 2s;}
+	.save3-2 img{position: absolute; width: 400px;
+		animation: floppy 4s Infinite;
+		animation-delay: 4s;}
+	@keyframes floppy{
+		0%{left: 1500px; top: 500px;}
+		50%{left: 1000px; top:900px;}
+		100%{left: 1500px; top: 1500px; transform: rotate(360deg);}
+	}
+	.cousor1 img{position: absolute; width: 200px; 
+		top: 900px;}
+	.call9-save img{position: absolute;
+		width: 700px;
+		left: 850px; top: 1700px;
+	}
+	.save1-2 img{position: absolute;
+		width: 40px; 
+		left: 1190px; top: 2376px;}
+	.save1-2 h6{position: absolute;width: ;
+		left:1250px; top: 2343px; font-size: 1.2rem;}
+	.save5 img{position: absolute;
+		width: 1000px;
+		left: 520px; top: 2370px;}
+	.call7-save img{position: absolute;
+		width: 600px; 
+		left: 30px; top: 2290px;}
+	.call7-save p{position: absolute;
+		width: 396px;
+		left: 115px; top: 2405px; }
+
+
+
+	.box-tv{}
+	.tvicon{position: absolute; 
+		width: 80px; 
+		animation: tvicon 4s forwards ease-in;
+	}
+	@keyframes tvicon {
+		0%{left: 0px; top: 220px;}
+		15%{left: 75px; top: 0px;}
+		25%{left: 150px; top: 220px;}
+		40%{left: 300px; top: -20px;}
+		50%{left: 300px; top: 220px;}
+		75%{left: 500px; top: 0px;}
+		100%{left: 700px; top: 220px; transform: rotate(360deg);}
+	}
+	.tv img{position: absolute; 
+		height: 1400px;
+		left: 260px; top: 500px;}
+	.tv h1{position: absolute;font-size: 15rem; 
+		left: -30px; top: 50px; }
+	.tv1 img{position: absolute; 
+		width: 400px; 
+		left: 1150px; top: -50px;
+		animation: tv 0.5s infinite alternate-reverse;}
+	@keyframes tv{
+		0%{top: 100px;}
+		100%{top: 120px;}
+	}
+	.tv2{position: absolute;
+		width: 750px;
+		top: 489px; left: -30px;}
+	.tv3{position: absolute;
+		width: px; 
+		top: 900px; left: 950px;}
+	.tv4{position: absolute;
+		width: 400px; 
+		top: 900px; left: 250px;}
+	.tv5{position: absolute;
+		width: 500px;
+		top: 1500px; left: 800px;}
+	.tv6{position: absolute;
+		width: 400px; 
+		top: 1600px; left: 1200px;}
+	.tv7{position: absolute;
+		width: 300px; 
+		top: 1500px; left: 400px;}
+	.tv8{position: absolute;
+		width: 656px; 
+		top: 921px; }
+	.tv-tx{position: absolute;
+		width: 300px;
+		top: 530px; left: 180px;}
+	.tv-tx1{position: absolute;
+		width: ;
+		top: 1400px; left: 1300px;}
+	.tv9{position: absolute;
+		width: 550px; 
+		top: 1890px; left: 350px;}
+	.tvicon2{position: absolute;
+		width: 50px; 
+		top: 2116px; left: 464px;}
+	.tv-hd{position: absolute;
+		top: 2088px; left: 540px;
+		font-size: 1.2rem;}
+	.tvicon3{position: absolute;
+		width: 50px; 
+		top: 2295px; left: 367px;}
+	.tv-hd2{position: absolute;
+		top: 2267px; left: 440px;
+		font-size: 1.2rem;}
+	.tvicon4{position: absolute;
+		width: 50px; 
+		top: 1940px; left: 551px;}
+	.tv-hd3{position: absolute;
+		top: 1909px; left: 625px;
+		font-size: 1.2rem;}
+
